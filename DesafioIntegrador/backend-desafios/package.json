@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "desafios",
+  "version": "1.0.0",
+  "description": "desafios de coderhouse",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "node .",
+    "dev": "nodemon -e 'js,handlebars' .",
+    "lint": "standard . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasEGonzalez/backEnd.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "javascript"
+  ],
+  "author": "ezequiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatiasEGonzalez/backEnd/issues"
+  },
+  "homepage": "https://github.com/MatiasEGonzalez/backEnd#readme",
+  "devDependencies": {
+    "@types/express": "4.17.17",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "express-handlebars": "7.0.2",
+    "mongoose": "^7.0.3",
+    "socket.io": "4.6.1"
+  }
+}
